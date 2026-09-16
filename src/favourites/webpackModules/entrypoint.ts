@@ -23,5 +23,8 @@ Dispatcher.subscribe("CONNECTION_OPEN", async () => {
 	logger.info("rerouted favorite settings!");
 });
 
+Dispatcher.subscribe("USER_SETTINGS_PROTO_UPDATE", rerouteFavoritesOnSettingsStore)
+Dispatcher.subscribe("USER_SETTINGS_PROTO_ENQUEUE_UPDATE", rerouteFavoritesOnSettingsStore)
+
 UserSettingsProtoStore.getFullState()[TEST_SETTINGS_SURFACE_ID] = testUserSettings;
 UserSettingsMigrations[TEST_SETTINGS_SURFACE_ID] = [];
