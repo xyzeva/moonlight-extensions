@@ -1,0 +1,10 @@
+{
+	"useTabs": true,
+	"lineWidth": 120,
+	"excludes": ["deno.lock"],
+	"plugins": [
+		"https://plugins.dprint.dev/typescript-0.96.1.wasm",
+		"https://plugins.dprint.dev/json-0.23.0.wasm",
+		"npm:dprint-plugin-markup@0.27.3"
+	]
+}

@@ -1,0 +1,5 @@
+allowBuilds:
+  esbuild: true
+minimumReleaseAgeExclude:
+  - '@moonlight-mod/mappings@2026.9.1'
+  - '@moonlight-mod/types@2026.9.1'

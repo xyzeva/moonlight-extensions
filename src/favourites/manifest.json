@@ -1,0 +1,14 @@
+{
+	"$schema": "https://moonlight-mod.github.io/manifest.schema.json",
+	"id": "favourites",
+	"version": "1.0.0",
+	"apiLevel": 2,
+	"meta": {
+		"name": "Favourites",
+		"tagline": "Enables the new favorites experiment properly",
+		"description": "Enables the new favourites tab and fixes the server-side experiment checks on it",
+		"authors": ["xyzeva"],
+		"tags": ["qol"],
+		"source": "https://github.com/xyzeva/moonlight-extensions"
+	}
+}
